@@ -1,39 +1,21 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MoniteurControleurExterne" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Horodatage" version="4">
   <OBJECT>
-    <ID name="MoniteurControleurExterne" mc="Standard.Class" uid="52230146-5d56-4d82-927a-d25ee3aa755f"/>
+    <ID name="Horodatage" mc="Standard.DataType" uid="6b003dba-7e20-4700-b569-4017ff0b3d4c"/>
     <PID name="tp_peacemaker" mc="Standard.Package" uid="06882766-4c99-4a06-97cb-c0e4ffa7d2b1"/>
     <ATTRIBUTES>
-      <ATT name="IsActive">false</ATT>
-      <ATT name="IsMain">false</ATT>
-      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsElementary">true</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[MoniteurControleurExterne]]></ATT>
+      <ATT name="Name"><![CDATA[Horodatage]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="OwnedOperation">
-        <OBJECT>
-          <ID name="calculerRythme" mc="Standard.Operation" uid="652b03f2-b019-492c-b4a2-4b399682cb53"/>
-          <ATTRIBUTES>
-            <ATT name="Concurrency">false</ATT>
-            <ATT name="Final">false</ATT>
-            <ATT name="Passing">MethodOut</ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[calculerRythme]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
-        </OBJECT>
-      </COMP>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="fallback" mc="Standard.Attribute" uid="a225a731-66c8-4578-bf53-741e01e48942"/>
+          <ID name="heure" mc="Standard.Attribute" uid="0da52298-5d48-46ee-897a-adabe265ef48"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -47,17 +29,17 @@
             <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[fallback]]></ATT>
+            <ATT name="Name"><![CDATA[heure]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="boolean" mc="Standard.DataType" uid="00000004-0000-0005-0000-000000000000"/>
+              <ID name="h" mc="Standard.DataType" uid="0fd408bc-4431-4ca8-b6b9-1e7742cfb6bd"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="atrEnCours" mc="Standard.Attribute" uid="57003690-5e75-4a4b-8ca9-f0bfe0d7bcab"/>
+          <ID name="minute" mc="Standard.Attribute" uid="22546d82-2727-4e25-90ca-38be0bbfa8f1"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -71,17 +53,17 @@
             <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[atrEnCours]]></ATT>
+            <ATT name="Name"><![CDATA[minute]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="boolean" mc="Standard.DataType" uid="00000004-0000-0005-0000-000000000000"/>
+              <ID name="mn" mc="Standard.DataType" uid="d3fd6660-7213-4a7d-8382-3d3a75341f6d"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="heureDebut" mc="Standard.Attribute" uid="3423d395-b184-4531-b324-a162c0c8eb60"/>
+          <ID name="seconde" mc="Standard.Attribute" uid="73b5b600-c0ec-46da-b4bf-ae90b21799b2"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -95,21 +77,18 @@
             <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[heureDebut]]></ATT>
+            <ATT name="Name"><![CDATA[seconde]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <ID name="Horodatage" mc="Standard.DataType" uid="6b003dba-7e20-4700-b569-4017ff0b3d4c"/>
+              <ID name="s" mc="Standard.DataType" uid="cbb5c5d4-d0d3-496b-b1ea-747a8f1357f4"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
-      </COMP>
-      <COMP relation="OwnedElement">
-        <COMPID name="" mc="Standard.Signal" uid="0ea8db81-f7d9-41ef-9ef1-f21ce75511d7"/>
       </COMP>
       <LINK relation="Extension">
-        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+        <FOREIGNID name="ValueType" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-1a00-0000-000000000000"/>
       </LINK>
     </DEPENDENCIES>
   </OBJECT>

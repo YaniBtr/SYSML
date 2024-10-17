@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Interaction1" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sequenceSys" version="4">
   <OBJECT>
-    <ID name="Interaction1" mc="Standard.Interaction" uid="fa4461de-4e83-4e33-ba6e-3b98248791c0"/>
+    <ID name="sequenceSys" mc="Standard.Interaction" uid="fa4461de-4e83-4e33-ba6e-3b98248791c0"/>
     <PID name="tp_peacemaker" mc="Standard.Package" uid="06882766-4c99-4a06-97cb-c0e4ffa7d2b1"/>
     <ATTRIBUTES>
       <ATT name="IsReentrant">false</ATT>
-      <ATT name="Name"><![CDATA[Interaction1]]></ATT>
+      <ATT name="Name"><![CDATA[sequenceSys]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

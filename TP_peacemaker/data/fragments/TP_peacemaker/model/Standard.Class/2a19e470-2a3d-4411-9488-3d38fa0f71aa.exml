@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sondes" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="generateurPulsations" version="4">
   <OBJECT>
-    <ID name="Sondes" mc="Standard.Class" uid="884dc82f-56a0-4297-beeb-914d0b08b275"/>
+    <ID name="generateurPulsations" mc="Standard.Class" uid="2a19e470-2a3d-4411-9488-3d38fa0f71aa"/>
     <PID name="tp_peacemaker" mc="Standard.Package" uid="06882766-4c99-4a06-97cb-c0e4ffa7d2b1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,10 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Sondes]]></ATT>
+      <ATT name="Name"><![CDATA[generateurPulsations]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="OwnedElement">
-        <COMPID name="BATTEMENT" mc="Standard.Signal" uid="6ece773e-6318-4394-984f-a46def18a208"/>
-      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
       </LINK>
