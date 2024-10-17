@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TP_peacemaker" version="4">
+  <OBJECT>
+    <ID name="TP_peacemaker" mc="Infrastructure.DiagramSet" uid="aa57dc7e-ffef-4c46-bd23-567bb7aa7c2b"/>
+    <PID name="TP_peacemaker" mc="Standard.Project" uid="65f0afa5-3281-45d1-afec-c8e4d4fe1df6"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[TP_peacemaker]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

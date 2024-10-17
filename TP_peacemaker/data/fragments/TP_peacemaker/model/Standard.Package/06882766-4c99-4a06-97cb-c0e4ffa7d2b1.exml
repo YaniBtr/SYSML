@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tp_peacemaker" version="4">
+  <OBJECT>
+    <ID name="tp_peacemaker" mc="Standard.Package" uid="06882766-4c99-4a06-97cb-c0e4ffa7d2b1"/>
+    <PID name="TP_peacemaker" mc="Standard.Project" uid="65f0afa5-3281-45d1-afec-c8e4d4fe1df6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tp_peacemaker]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Pacemaker" mc="Standard.Class" uid="eb454dd1-eada-448c-b912-339b5946acc3"/>
+        <COMPID name="Le patient" mc="Standard.Class" uid="927d200f-80c2-435c-b92a-b281de7b3664"/>
+        <COMPID name="Le docteur" mc="Standard.Class" uid="16984e9e-492c-4886-8716-1eb811dffc23"/>
+        <COMPID name="Le fabricant" mc="Standard.Class" uid="bb03513c-73b2-4817-a59f-9fd71f53beb5"/>
+        <COMPID name="Le coeur" mc="Standard.Class" uid="b1ceb9c9-4b45-4156-b41b-f939c7b314d0"/>
+        <COMPID name="Block" mc="Standard.Class" uid="d2c5ff86-3a21-47c3-8d3d-a44eb16d333f"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="diag_contexte" mc="Standard.StaticDiagram" uid="6ffc7ef5-b2ac-42cc-86e3-d5add63bb1a8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

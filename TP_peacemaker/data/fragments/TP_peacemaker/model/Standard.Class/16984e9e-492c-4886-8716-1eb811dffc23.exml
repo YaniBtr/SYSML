@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Le docteur" version="4">
+  <OBJECT>
+    <ID name="Le docteur" mc="Standard.Class" uid="16984e9e-492c-4886-8716-1eb811dffc23"/>
+    <PID name="tp_peacemaker" mc="Standard.Package" uid="06882766-4c99-4a06-97cb-c0e4ffa7d2b1"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Le docteur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="Insere" mc="Infrastructure.Dependency" uid="fca3a4c4-1f34-4233-9d4c-7b8feeae1c30"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Insere]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Pacemaker" mc="Standard.Class" uid="eb454dd1-eada-448c-b912-339b5946acc3"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Achète au" mc="Infrastructure.Dependency" uid="fa1c3fff-649b-4670-ae04-0ab58bb11e5e"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Achète au]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Le fabricant" mc="Standard.Class" uid="bb03513c-73b2-4817-a59f-9fd71f53beb5"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
