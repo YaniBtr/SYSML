@@ -25,9 +25,14 @@
         <COMPID name="Le coeur" mc="Standard.Class" uid="b1ceb9c9-4b45-4156-b41b-f939c7b314d0"/>
         <COMPID name="Block" mc="Standard.Class" uid="d2c5ff86-3a21-47c3-8d3d-a44eb16d333f"/>
         <COMPID name="Sondes" mc="Standard.Actor" uid="3b2b5ca6-b85c-4b9b-958f-e9cf8e11bbf1"/>
+        <COMPID name="BATTEMENT" mc="Standard.Signal" uid="9ddb3580-0611-4daf-8795-e47bcb516ead"/>
+        <COMPID name="MoniteurControleurExterne" mc="Standard.Class" uid="52230146-5d56-4d82-927a-d25ee3aa755f"/>
+        <COMPID name="Sondes" mc="Standard.Class" uid="884dc82f-56a0-4297-beeb-914d0b08b275"/>
+        <COMPID name="WAIT" mc="Standard.Signal" uid="d5721351-a005-47f5-9856-b2fefcf72dc6"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="diag_contexte" mc="Standard.StaticDiagram" uid="6ffc7ef5-b2ac-42cc-86e3-d5add63bb1a8"/>
+        <COMPID name="tp_peacemaker Diagramme de définition de blocs" mc="Standard.StaticDiagram" uid="dbabd1c0-9397-4791-bc08-77e66341122f"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
