@@ -201,13 +201,10 @@
         <COMPID name="Sondes" mc="Standard.Actor" uid="3b2b5ca6-b85c-4b9b-958f-e9cf8e11bbf1"/>
         <COMPID name="BATTEMENT" mc="Standard.Signal" uid="9ddb3580-0611-4daf-8795-e47bcb516ead"/>
         <COMPID name="MoniteurControleurExterne" mc="Standard.Class" uid="52230146-5d56-4d82-927a-d25ee3aa755f"/>
-        <COMPID name="WAIT" mc="Standard.Signal" uid="d5721351-a005-47f5-9856-b2fefcf72dc6"/>
-        <COMPID name="generateurPulsations" mc="Standard.Class" uid="2a19e470-2a3d-4411-9488-3d38fa0f71aa"/>
         <COMPID name="h" mc="Standard.DataType" uid="0fd408bc-4431-4ca8-b6b9-1e7742cfb6bd"/>
         <COMPID name="mn" mc="Standard.DataType" uid="d3fd6660-7213-4a7d-8382-3d3a75341f6d"/>
         <COMPID name="s" mc="Standard.DataType" uid="cbb5c5d4-d0d3-496b-b1ea-747a8f1357f4"/>
         <COMPID name="Horodatage" mc="Standard.DataType" uid="6b003dba-7e20-4700-b569-4017ff0b3d4c"/>
-        <COMPID name="Horloge" mc="Standard.Class" uid="fe78c334-b5ba-4911-b395-e44f7ea2a3c9"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="diag_contexte" mc="Standard.StaticDiagram" uid="6ffc7ef5-b2ac-42cc-86e3-d5add63bb1a8"/>
