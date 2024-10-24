@@ -210,20 +210,6 @@
         <COMPID name="Retirer PaceMaker" mc="Standard.UseCase" uid="b6923291-48b5-472e-9eb7-25b17b8ce774"/>
         <COMPID name="Régler PaceMaker" mc="Standard.UseCase" uid="3de2f302-c876-40de-a9b3-5b14b8f121d3"/>
         <COMPID name="Récupérer informations du PaceMaker " mc="Standard.UseCase" uid="57ded03b-a55e-457a-80c7-baaea0f0f020"/>
-        <COMPID name="Coeur" mc="Standard.Actor" uid="005306bd-3ed7-4869-a2a8-c4af92731aaf"/>
-        <COMPID name="émettre battement" mc="Standard.UseCase" uid="50c27dc8-7a7a-44c4-8f89-0239de2c69c9"/>
-        <COMPID name="Contrôleur Moniteur" mc="Standard.Actor" uid="574608c5-5c6c-4ea6-ab82-2e25575df20f"/>
-        <COMPID name="Programmer et interoger le PaceMaker" mc="Standard.UseCase" uid="a23e7c0b-1b85-4a88-8a3b-9de5bd5113ae"/>
-        <COMPID name="Envoyer un ordre de stimulation " mc="Standard.UseCase" uid="1d4cd07d-0181-4244-a01d-203baf191e3d"/>
-        <COMPID name="Gérer l'historique des valeurs des capteurs" mc="Standard.UseCase" uid="413bb40c-2921-4fe2-a347-152aba0291c2"/>
-        <COMPID name="Afficher l'historique et les informations de l'étalonnage" mc="Standard.UseCase" uid="a754a7fb-fa00-48d1-9779-f42fe6b0fb87"/>
-        <COMPID name="Insérer PaceMaker" mc="Standard.UseCase" uid="8c2aaa66-df45-4c4b-af48-b6cb69b7f6e4"/>
-        <COMPID name="Retirer PaceMaker" mc="Standard.UseCase" uid="d056d2c0-c5a4-4ecb-9dae-43ebfcb19e86"/>
-        <COMPID name="Régler PaceMaker" mc="Standard.UseCase" uid="d4a0b7b4-b9ba-4a20-8264-641c16b30cd6"/>
-        <COMPID name="Récupérer les informations du Pacemaker" mc="Standard.UseCase" uid="33a679b1-89fb-4eaa-ac47-caa9eaa740e3"/>
-        <COMPID name="Envoyer un ordre de stimulation" mc="Standard.UseCase" uid="b5863271-51f4-4112-816d-fbda3fc79c0d"/>
-        <COMPID name="Gérer l’historique des valeurs des capteurs " mc="Standard.UseCase" uid="554ab526-f71f-413c-b01d-07a14dd6b39c"/>
-        <COMPID name="Afficher l’historique et les informations d’étalonnage" mc="Standard.UseCase" uid="0ecab067-3d76-40a1-aa57-4baa7b0fd004"/>
         <COMPID name="generateurPulsation" mc="Standard.Class" uid="aed558b4-879a-4dcc-bd9b-949b00f35a7e"/>
         <COMPID name="SIG_INDUCT" mc="Standard.Signal" uid="225529bc-1c9d-44d2-ada8-90b9c0f36a69"/>
         <COMPID name="Timer" mc="Standard.Class" uid="a697924c-6c4f-4f63-bfb2-68d2f514ae81"/>
@@ -233,9 +219,6 @@
         <COMPID name="diag_contexte" mc="Standard.StaticDiagram" uid="6ffc7ef5-b2ac-42cc-86e3-d5add63bb1a8"/>
         <COMPID name="tp_peacemaker Use Case Sondes" mc="Standard.UseCaseDiagram" uid="1589cebe-fa50-497d-bf14-5c6cafe8528a"/>
         <COMPID name="tp_peacemaker Use Case Docteur" mc="Standard.UseCaseDiagram" uid="bc0e545f-9ae8-4652-bf61-e0e5ac775083"/>
-        <COMPID name="tp_peacemaker Use Case Coeur" mc="Standard.UseCaseDiagram" uid="678ae0ad-c0b3-4a94-84f1-0068713883d3"/>
-        <COMPID name="Use Case diagram Contrôleur Moniteur" mc="Standard.UseCaseDiagram" uid="05a28da9-6d52-4302-9768-78f7c5383772"/>
-        <COMPID name="Use Case diagram Docteur &amp; Contrôleur Moniteur" mc="Standard.UseCaseDiagram" uid="434df2ed-521a-4a96-a072-3b958cfc7eca"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
