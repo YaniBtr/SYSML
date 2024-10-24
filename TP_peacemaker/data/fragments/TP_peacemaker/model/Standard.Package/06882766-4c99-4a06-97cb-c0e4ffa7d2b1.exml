@@ -14,7 +14,6 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
-        <COMPID name="SequenceTest" mc="Standard.Interaction" uid="955bf3d8-5260-4b89-aa2d-d213e5d64cc5"/>
         <COMPID name="sequenceSys" mc="Standard.Interaction" uid="fa4461de-4e83-4e33-ba6e-3b98248791c0"/>
         <COMPID name="SequenceDetaille" mc="Standard.Interaction" uid="9514ba22-f5ee-4c6a-a52a-7e8dd11a0ca5"/>
       </COMP>
@@ -199,7 +198,7 @@
         <COMPID name="Le coeur" mc="Standard.Class" uid="b1ceb9c9-4b45-4156-b41b-f939c7b314d0"/>
         <COMPID name="Block" mc="Standard.Class" uid="d2c5ff86-3a21-47c3-8d3d-a44eb16d333f"/>
         <COMPID name="Sondes" mc="Standard.Actor" uid="3b2b5ca6-b85c-4b9b-958f-e9cf8e11bbf1"/>
-        <COMPID name="BATTEMENT" mc="Standard.Signal" uid="9ddb3580-0611-4daf-8795-e47bcb516ead"/>
+        <COMPID name="SIG_ELEC_COEUR" mc="Standard.Signal" uid="9ddb3580-0611-4daf-8795-e47bcb516ead"/>
         <COMPID name="MoniteurControleurExterne" mc="Standard.Class" uid="52230146-5d56-4d82-927a-d25ee3aa755f"/>
         <COMPID name="h" mc="Standard.DataType" uid="0fd408bc-4431-4ca8-b6b9-1e7742cfb6bd"/>
         <COMPID name="mn" mc="Standard.DataType" uid="d3fd6660-7213-4a7d-8382-3d3a75341f6d"/>
@@ -225,15 +224,18 @@
         <COMPID name="Envoyer un ordre de stimulation" mc="Standard.UseCase" uid="b5863271-51f4-4112-816d-fbda3fc79c0d"/>
         <COMPID name="Gérer l’historique des valeurs des capteurs " mc="Standard.UseCase" uid="554ab526-f71f-413c-b01d-07a14dd6b39c"/>
         <COMPID name="Afficher l’historique et les informations d’étalonnage" mc="Standard.UseCase" uid="0ecab067-3d76-40a1-aa57-4baa7b0fd004"/>
+        <COMPID name="generateurPulsation" mc="Standard.Class" uid="aed558b4-879a-4dcc-bd9b-949b00f35a7e"/>
+        <COMPID name="SIG_INDUCT" mc="Standard.Signal" uid="225529bc-1c9d-44d2-ada8-90b9c0f36a69"/>
+        <COMPID name="Timer" mc="Standard.Class" uid="a697924c-6c4f-4f63-bfb2-68d2f514ae81"/>
+        <COMPID name="SIG_TIMER" mc="Standard.Signal" uid="f56650c8-6396-46db-a33f-0a9f7711efed"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="diag_contexte" mc="Standard.StaticDiagram" uid="6ffc7ef5-b2ac-42cc-86e3-d5add63bb1a8"/>
-        <COMPID name="tp_peacemaker Diagramme de définition de blocs" mc="Standard.StaticDiagram" uid="dbabd1c0-9397-4791-bc08-77e66341122f"/>
         <COMPID name="tp_peacemaker Use Case Sondes" mc="Standard.UseCaseDiagram" uid="1589cebe-fa50-497d-bf14-5c6cafe8528a"/>
         <COMPID name="tp_peacemaker Use Case Docteur" mc="Standard.UseCaseDiagram" uid="bc0e545f-9ae8-4652-bf61-e0e5ac775083"/>
         <COMPID name="tp_peacemaker Use Case Coeur" mc="Standard.UseCaseDiagram" uid="678ae0ad-c0b3-4a94-84f1-0068713883d3"/>
         <COMPID name="Use Case diagram Contrôleur Moniteur" mc="Standard.UseCaseDiagram" uid="05a28da9-6d52-4302-9768-78f7c5383772"/>
-        <COMPID name="Use Case diagram Docteur DCM " mc="Standard.UseCaseDiagram" uid="434df2ed-521a-4a96-a072-3b958cfc7eca"/>
+        <COMPID name="Use Case diagram Docteur &amp; Contrôleur Moniteur" mc="Standard.UseCaseDiagram" uid="434df2ed-521a-4a96-a072-3b958cfc7eca"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SIG_ELEC_COEUR" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SIG_TIMER" version="4">
   <OBJECT>
-    <ID name="SIG_ELEC_COEUR" mc="Standard.Signal" uid="9ddb3580-0611-4daf-8795-e47bcb516ead"/>
+    <ID name="SIG_TIMER" mc="Standard.Signal" uid="f56650c8-6396-46db-a33f-0a9f7711efed"/>
     <PID name="tp_peacemaker" mc="Standard.Package" uid="06882766-4c99-4a06-97cb-c0e4ffa7d2b1"/>
     <ATTRIBUTES>
       <ATT name="IsEvent">false</ATT>
@@ -11,9 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[SIG_ELEC_COEUR]]></ATT>
+      <ATT name="Name"><![CDATA[SIG_TIMER]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
-    <DEPENDENCIES></DEPENDENCIES>
+    <DEPENDENCIES>
+      <LINK relation="Base">
+        <ID name="SIG_TIMER" mc="Standard.Signal" uid="f56650c8-6396-46db-a33f-0a9f7711efed"/>
+      </LINK>
+    </DEPENDENCIES>
   </OBJECT>
 </EXT>

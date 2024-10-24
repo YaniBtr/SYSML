@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SIG_INDUCT" version="4">
+  <OBJECT>
+    <ID name="SIG_INDUCT" mc="Standard.Signal" uid="a53d7190-46d8-43c8-9522-b325cf455173"/>
+    <PID name="MoniteurControleurExterne" mc="Standard.Class" uid="52230146-5d56-4d82-927a-d25ee3aa755f"/>
+    <ATTRIBUTES>
+      <ATT name="IsEvent">false</ATT>
+      <ATT name="IsException">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SIG_INDUCT]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Base">
+        <ID name="SIG_INDUCT" mc="Standard.Signal" uid="225529bc-1c9d-44d2-ada8-90b9c0f36a69"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
