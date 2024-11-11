@@ -95,18 +95,6 @@
         <ID name="Pacemaker" mc="Standard.Class" uid="eb454dd1-eada-448c-b912-339b5946acc3"/>
         <ID name="generateurPulsation" mc="Standard.Class" uid="aed558b4-879a-4dcc-bd9b-949b00f35a7e"/>
         <REFOBJ>
-          <ID name="moniteurControleurExterne" mc="Standard.AssociationEnd" uid="3ce2bd80-deb3-4a95-b644-aa40cee9516d"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="73fc69f9-bc8d-4948-8d9c-5946d2623622"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="4e9dcd39-c15b-4eb7-aded-e140b889ecb5"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="generateurPulsation" mc="Standard.AssociationEnd" uid="18cc7092-9a1c-43ee-b9b7-4783f605aee3"/>
-        </REFOBJ>
-        <REFOBJ>
           <ID name="detecterTachycardie" mc="Standard.Operation" uid="c7f28481-a867-458e-b761-16d8337f8c61"/>
         </REFOBJ>
         <REFOBJ>

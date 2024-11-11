@@ -63,6 +63,34 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Dependency" uid="3a0cb5c3-b176-48d7-a613-91e7d7d5ce8a"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <REFOBJ>
+                <ID name="Seconde" mc="Standard.Instance" uid="d259e6d1-c722-4eef-a516-27ba8eaa1930"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="&lt;&lt;ValueTypeQuantityKind&gt;&gt;" mc="Infrastructure.Dependency" uid="e4fdd924-9213-4b04-9b7c-629017e8b85f"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[<<ValueTypeQuantityKind>>]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <REFOBJ>
+                <ID name="Time" mc="Standard.Instance" uid="7f3ee085-ee12-490e-a5b5-9aee6e1e5b21"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="Tag">
         <OBJECT>

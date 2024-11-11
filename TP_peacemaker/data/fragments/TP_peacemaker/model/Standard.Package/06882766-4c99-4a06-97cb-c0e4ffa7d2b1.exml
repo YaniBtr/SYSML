@@ -48,6 +48,36 @@
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
+              <OBJECT>
+                <ID name="&lt;&lt;UnitQuantityKind&gt;&gt;" mc="Infrastructure.Dependency" uid="588bbda8-31f4-4367-b9ce-262c5fb305fb"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[<<UnitQuantityKind>>]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <REFOBJ>
+                      <ID name="Time" mc="Standard.Instance" uid="7f3ee085-ee12-490e-a5b5-9aee6e1e5b21"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="Descriptor">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.Note" uid="07bef4c8-2a0f-4068-8266-b9719af857cd"/>
+                      <ATTRIBUTES>
+                        <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                        <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Model">
+                          <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
             </COMP>
             <COMP relation="Tag">
               <OBJECT>
@@ -102,6 +132,20 @@
                   </LINK>
                   <LINK relation="Extension">
                     <FOREIGNID name="UnitQuantityKind" mc="Infrastructure.Stereotype" uid="e002f3a2-c234-11df-83b7-001302895b2b"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="&lt;&lt;UnitQuantityKind&gt;&gt;" mc="Infrastructure.Dependency" uid="7afe494a-426c-4c14-977b-286db0cd0d54"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[<<UnitQuantityKind>>]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <REFOBJ>
+                      <ID name="Time" mc="Standard.Instance" uid="7f3ee085-ee12-490e-a5b5-9aee6e1e5b21"/>
+                    </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -162,6 +206,20 @@
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
+              <OBJECT>
+                <ID name="&lt;&lt;UnitQuantityKind&gt;&gt;" mc="Infrastructure.Dependency" uid="2017c943-9b69-48ed-8e31-26107af9d937"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[<<UnitQuantityKind>>]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <REFOBJ>
+                      <ID name="Time" mc="Standard.Instance" uid="7f3ee085-ee12-490e-a5b5-9aee6e1e5b21"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
             </COMP>
             <COMP relation="Tag">
               <OBJECT>
@@ -187,6 +245,22 @@
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Time" mc="Standard.Instance" uid="7f3ee085-ee12-490e-a5b5-9aee6e1e5b21"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Time]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="QuantityKind" mc="Infrastructure.Stereotype" uid="d0c2eab1-c19f-11df-b3ac-001302895b2b"/>
+            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
@@ -218,6 +292,7 @@
         <COMPID name="diag_contexte" mc="Standard.StaticDiagram" uid="6ffc7ef5-b2ac-42cc-86e3-d5add63bb1a8"/>
         <COMPID name="tp_peacemaker Use Case Sondes" mc="Standard.UseCaseDiagram" uid="1589cebe-fa50-497d-bf14-5c6cafe8528a"/>
         <COMPID name="tp_peacemaker Use Case Docteur" mc="Standard.UseCaseDiagram" uid="bc0e545f-9ae8-4652-bf61-e0e5ac775083"/>
+        <COMPID name="tp_peacemaker Block diagram" mc="Standard.StaticDiagram" uid="04b04f33-c33a-406e-9acd-7043f4563400"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
