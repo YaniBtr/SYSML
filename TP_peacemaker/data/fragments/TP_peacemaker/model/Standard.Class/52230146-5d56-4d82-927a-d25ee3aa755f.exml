@@ -275,7 +275,6 @@
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="SIG_INDUCT" mc="Standard.Signal" uid="a53d7190-46d8-43c8-9522-b325cf455173"/>
-        <COMPID name="SIG_TIMER" mc="Standard.Signal" uid="e31214c8-11bd-4aa3-89b8-8c36e1e78c95"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>

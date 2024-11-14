@@ -332,15 +332,15 @@
         <COMPID name="generateurPulsation" mc="Standard.Class" uid="aed558b4-879a-4dcc-bd9b-949b00f35a7e"/>
         <COMPID name="SIG_INDUCT" mc="Standard.Signal" uid="225529bc-1c9d-44d2-ada8-90b9c0f36a69"/>
         <COMPID name="Timer" mc="Standard.Class" uid="a697924c-6c4f-4f63-bfb2-68d2f514ae81"/>
-        <COMPID name="SIG_TIMER" mc="Standard.Signal" uid="f56650c8-6396-46db-a33f-0a9f7711efed"/>
         <COMPID name="Sondes" mc="Standard.Class" uid="69c51703-6e83-43ff-8e0b-02b64a38c038"/>
         <COMPID name="Pulse" mc="Standard.DataType" uid="a0cfd6df-36c6-4fd8-a545-ba16a3f86150"/>
+        <COMPID name="I_Battement" mc="Standard.Interface" uid="56436eca-b30d-4185-9ffa-d3071bbea02d"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="diag_contexte" mc="Standard.StaticDiagram" uid="6ffc7ef5-b2ac-42cc-86e3-d5add63bb1a8"/>
         <COMPID name="tp_peacemaker Use Case Docteur" mc="Standard.UseCaseDiagram" uid="bc0e545f-9ae8-4652-bf61-e0e5ac775083"/>
         <COMPID name="tp_peacemaker Block diagram" mc="Standard.StaticDiagram" uid="04b04f33-c33a-406e-9acd-7043f4563400"/>
-        <COMPID name="tp_peacemaker Block Definition diagram" mc="Standard.StaticDiagram" uid="e9712112-ce4e-4538-9526-37b49e994817"/>
+        <COMPID name="tp_peacemaker Block interne" mc="Standard.StaticDiagram" uid="e9712112-ce4e-4538-9526-37b49e994817"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
