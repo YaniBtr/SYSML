@@ -279,11 +279,7 @@
                   <ATT name="Name"><![CDATA[r]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Base">
-                    <ID name="Sondes" mc="Standard.Actor" uid="3b2b5ca6-b85c-4b9b-958f-e9cf8e11bbf1"/>
-                  </LINK>
-                </DEPENDENCIES>
+                <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
               <OBJECT>
                 <ID name="r1" mc="Standard.BindableInstance" uid="f57783e0-1c45-4493-8a15-9804b14125c3"/>

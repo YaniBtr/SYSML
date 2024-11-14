@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tp_peacemaker Block Definition diagram" version="4">
+  <OBJECT>
+    <ID name="tp_peacemaker Block Definition diagram" mc="Standard.StaticDiagram" uid="e9712112-ce4e-4538-9526-37b49e994817"/>
+    <PID name="tp_peacemaker" mc="Standard.Package" uid="06882766-4c99-4a06-97cb-c0e4ffa7d2b1"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">1</ATT>
+      <ATT name="UiData"><![CDATA[eJztVd9P2zAQ/leivNclbViJVIqgQVVFRlE7kPaErvEtM/hHZbvQ/PfYTcpotnbdhMbLnmKf/d19d/ed0z9bCR48oTZMydMwIkdhcDboT+YPmNuAUWcKA1su8DRUuiBCUeRMkaXgxFiw7JEyKDQIgpRZpQlyFCitqU7zzelIzNb7tNqHgYAHpe9f4x6Fg/6NVgvUtgwkCBeOQ6mWNgUL7uwO+BJrHnLJedge9NsbwE/QmS05hltZdH6VxYad8fcNyZVGUmEP4DcEkwNFugl2ubJT/HZglGvnokYGuLLpfOw4rpd+YUojmim2q2T2pa2Rg0XqWDQq9tmbgidv8cUBSUFTstWRAJNe1ImiTivHGFvxcfeklRx3PrW6vXmcYJLEJ1Fvf9U5GHsl1bPMYI68QWFmNZOFM7bX1r1pKI5jOVRioQyzrvx/72r4nXGq0XvImPHFqz87ERmTj+bw6xdFquHZ0cmgRL0tue4+yb3OCa3whnDvwQ3KlsN/Myd/hvpgmTG6Qw/piGTnXy+n9xfnw6vRdHJ7nb6PRA4YvbdN+yGfN2KI/4vhY8TwZXLz3ir43aPQ+NmRumENpmNpsfBdrWsU7XjwXwDiYqYR]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAIAAAAmdTLBAAAAGElEQVR4nGP4TxlgGNU/qn9U/6j+EaofAB8cJiE1IQRUAAAAAElFTkSuQmCC]]></ATT>
+      <ATT name="JsStructure"></ATT>
+      <ATT name="Name"><![CDATA[tp_peacemaker Block Definition diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="BlockDiagram" mc="Infrastructure.Stereotype" uid="00bc42ac-0000-1016-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="12162491-c72e-49fa-b5cd-5b68a2d76644"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

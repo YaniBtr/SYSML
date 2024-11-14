@@ -263,6 +263,54 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
+        <OBJECT>
+          <ID name="ElectricCurrent" mc="Standard.Instance" uid="c22cb6e6-ff75-4e7e-8759-b03f2f1f29aa"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[ElectricCurrent]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="QuantityKind" mc="Infrastructure.Stereotype" uid="d0c2eab1-c19f-11df-b3ac-001302895b2b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Ampere" mc="Standard.Instance" uid="45d6ac0c-f356-4818-8bde-1d63eee82549"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Ampere]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="Unit" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19fa-0000-000000000000"/>
+            </LINK>
+            <COMP relation="DependsOnDependency">
+              <OBJECT>
+                <ID name="&lt;&lt;UnitQuantityKind&gt;&gt;" mc="Infrastructure.Dependency" uid="4055bee8-620e-44a8-8917-589698578096"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[<<UnitQuantityKind>>]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <REFOBJ>
+                      <ID name="ElectricCurrent" mc="Standard.Instance" uid="c22cb6e6-ff75-4e7e-8759-b03f2f1f29aa"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Pacemaker" mc="Standard.Class" uid="eb454dd1-eada-448c-b912-339b5946acc3"/>
@@ -270,14 +318,12 @@
         <COMPID name="Le docteur" mc="Standard.Class" uid="16984e9e-492c-4886-8716-1eb811dffc23"/>
         <COMPID name="Le fabricant" mc="Standard.Class" uid="bb03513c-73b2-4817-a59f-9fd71f53beb5"/>
         <COMPID name="Le coeur" mc="Standard.Class" uid="b1ceb9c9-4b45-4156-b41b-f939c7b314d0"/>
-        <COMPID name="Sondes" mc="Standard.Actor" uid="3b2b5ca6-b85c-4b9b-958f-e9cf8e11bbf1"/>
         <COMPID name="SIG_ELEC_COEUR" mc="Standard.Signal" uid="9ddb3580-0611-4daf-8795-e47bcb516ead"/>
         <COMPID name="MoniteurControleurExterne" mc="Standard.Class" uid="52230146-5d56-4d82-927a-d25ee3aa755f"/>
         <COMPID name="h" mc="Standard.DataType" uid="0fd408bc-4431-4ca8-b6b9-1e7742cfb6bd"/>
         <COMPID name="mn" mc="Standard.DataType" uid="d3fd6660-7213-4a7d-8382-3d3a75341f6d"/>
         <COMPID name="s" mc="Standard.DataType" uid="cbb5c5d4-d0d3-496b-b1ea-747a8f1357f4"/>
         <COMPID name="Horodatage" mc="Standard.DataType" uid="6b003dba-7e20-4700-b569-4017ff0b3d4c"/>
-        <COMPID name="Émission de signaux électriques" mc="Standard.UseCase" uid="198125cb-f1b7-4215-9d81-9f485ca9e578"/>
         <COMPID name="Docteur" mc="Standard.Actor" uid="51665089-1f69-46d0-b0ae-be8601c7c334"/>
         <COMPID name="Insérer PaceMaker" mc="Standard.UseCase" uid="f5a9a196-95bc-4ab3-a725-4534a53abaeb"/>
         <COMPID name="Retirer PaceMaker" mc="Standard.UseCase" uid="b6923291-48b5-472e-9eb7-25b17b8ce774"/>
@@ -287,12 +333,14 @@
         <COMPID name="SIG_INDUCT" mc="Standard.Signal" uid="225529bc-1c9d-44d2-ada8-90b9c0f36a69"/>
         <COMPID name="Timer" mc="Standard.Class" uid="a697924c-6c4f-4f63-bfb2-68d2f514ae81"/>
         <COMPID name="SIG_TIMER" mc="Standard.Signal" uid="f56650c8-6396-46db-a33f-0a9f7711efed"/>
+        <COMPID name="Sondes" mc="Standard.Class" uid="69c51703-6e83-43ff-8e0b-02b64a38c038"/>
+        <COMPID name="Pulse" mc="Standard.DataType" uid="a0cfd6df-36c6-4fd8-a545-ba16a3f86150"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="diag_contexte" mc="Standard.StaticDiagram" uid="6ffc7ef5-b2ac-42cc-86e3-d5add63bb1a8"/>
-        <COMPID name="tp_peacemaker Use Case Sondes" mc="Standard.UseCaseDiagram" uid="1589cebe-fa50-497d-bf14-5c6cafe8528a"/>
         <COMPID name="tp_peacemaker Use Case Docteur" mc="Standard.UseCaseDiagram" uid="bc0e545f-9ae8-4652-bf61-e0e5ac775083"/>
         <COMPID name="tp_peacemaker Block diagram" mc="Standard.StaticDiagram" uid="04b04f33-c33a-406e-9acd-7043f4563400"/>
+        <COMPID name="tp_peacemaker Block Definition diagram" mc="Standard.StaticDiagram" uid="e9712112-ce4e-4538-9526-37b49e994817"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
