@@ -234,7 +234,7 @@
           <DEPENDENCIES>
             <LINK relation="Represented">
               <REFOBJ>
-                <ID name="r" mc="Standard.BindableInstance" uid="582c8f9c-bc16-4859-a11f-92019b83daad"/>
+                <ID name="Sondes" mc="Standard.BindableInstance" uid="04aedf95-e91d-4814-b85b-eb711a7b1fff"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
